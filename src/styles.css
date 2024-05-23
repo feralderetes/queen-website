@@ -38,30 +38,19 @@ header h3 {
   margin: 0;
 }
 
-header a {
-  background-color: #885df1;
-  border-radius: 100px;
-  color: white;
-  display: inline-block;
-  font-size: 16px;
-  font-weight: 600;
-  margin-top: 32px;
-  padding: 16px 32px;
-  text-decoration: none;
-}
-
 main h2 {
   color: rgba(39, 32, 68, 1);
   font-family: "Playfair Display", serif;
   font-size: 48px;
   font-weight: 700;
+  margin: 0;
 }
 
 main h3 {
-  background: rgba(136, 93, 241, 0.1);
-  color: rgba(70, 44, 178, 1);
+  background: rgba(238, 31, 72, 0.1);
+  color: rgb(238, 31, 72);
   display: inline-block;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 700;
   letter-spacing: 5px;
   text-transform: uppercase;
@@ -89,18 +78,6 @@ main p {
   text-align: justify;
 }
 
-main a {
-  background-color: #885df1;
-  border-radius: 100px;
-  color: white;
-  display: inline-block;
-  font-size: 16px;
-  font-weight: 600;
-  margin-top: 32px;
-  padding: 16px 32px;
-  text-decoration: none;
-}
-
 section.primary {
   background: white;
 }
@@ -117,6 +94,10 @@ section.secondary {
 section.secondary h2,
 section.secondary h3 {
   color: white;
+}
+
+section.secondary h3 {
+  background: rgb(238, 31, 72);
 }
 
 footer {
@@ -163,6 +144,23 @@ footer a {
 .container {
   margin: 0 auto;
   max-width: 1400px;
+}
+
+.btn {
+  background-color: rgb(238, 31, 72);
+  border-radius: 100px;
+  box-shadow: 2px 2px 8px rgba(53, 1, 11, 0.2);
+  color: white;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 32px;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+}
+
+.btn:hover {
+  background-color: rgb(212, 11, 51);
 }
 
 .grid {
