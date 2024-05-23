@@ -16,7 +16,6 @@ header {
   color: white;
   line-height: 1.5;
   padding: 200px;
-  text-align: center;
 }
 
 header h1 {
@@ -102,11 +101,6 @@ main a {
   text-decoration: none;
 }
 
-section {
-  margin: 0 auto;
-  max-width: 1400px;
-}
-
 section.primary {
   background: white;
 }
@@ -118,14 +112,11 @@ section.secondary {
     rgba(2, 4, 3, 0.7) 51.55%,
     rgba(11, 6, 32, 0.6) 100%
   );
-  text-align: center;
-  margin-top: 60px;
 }
 
 section.secondary h2,
 section.secondary h3 {
   color: white;
-  margin: 10px auto;
 }
 
 footer {
@@ -177,6 +168,8 @@ footer a {
 .grid {
   display: grid;
   grid-gap: 64px;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .grid-2-columns {
@@ -189,6 +182,7 @@ footer a {
 
 .grid-3-equal-columns {
   grid-template-columns: 1fr 1fr 1fr;
+  padding: 30px;
 }
 
 .img-responsive {
@@ -222,6 +216,14 @@ footer a {
 .video-embed {
   width: 100%;
   aspect-ratio: 16 / 9;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-60 {
+  margin-top: 60px;
 }
 
 @media (max-width: 960px) {
