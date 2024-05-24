@@ -148,13 +148,13 @@ footer a {
 
 .btn {
   background-color: rgb(238, 31, 72);
-  border-radius: 100px;
+  border-radius: 50px;
   box-shadow: 2px 2px 8px rgba(53, 1, 11, 0.2);
   color: white;
   display: inline-block;
   font-size: 16px;
   margin-top: 32px;
-  padding: 10px 20px;
+  padding: 12px 30px;
   text-decoration: none;
   transition: all 200ms ease-in-out;
 }
